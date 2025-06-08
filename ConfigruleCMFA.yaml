@@ -62,21 +62,7 @@ proxies:
       headers:
         Host: id1vless.ipservers.xyz
     udp: true
-  - name: AKUN3
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: id2vless.ipservers.xyz
-    udp: true
+  
 
 proxy-groups:
   - name: ID-X
@@ -86,7 +72,7 @@ proxy-groups:
     proxies:
       - rush55
       - AKUN2
-      - AKUN3
+   
 
   - name: MIX-X
     type: fallback
@@ -95,7 +81,7 @@ proxy-groups:
     proxies:
       - rush55
       - AKUN2
-      - AKUN3
+ 
       
   - name: IKLAN
     type: select
