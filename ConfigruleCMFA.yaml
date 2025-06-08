@@ -48,7 +48,7 @@ proxies:
       Host: sg-do5.esge.web.id
   udp: true
   - name: AKUN2
-    server: quiz.int.vidio.com
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
@@ -63,7 +63,7 @@ proxies:
         Host: id1vless.ipservers.xyz
     udp: true
   - name: AKUN3
-    server: quiz.int.vidio.com
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
