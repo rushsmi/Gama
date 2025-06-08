@@ -47,20 +47,20 @@ proxies:
       headers:
         Host: sg-do5.esge.web.id
     udp: true
-  - name: AKUN2
+  - name: selamatiduladha
     server: ava.game.naver.com
     port: 443
-    type: vless
-    uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
+    type: vmess
+    uuid: 423d2afb-2e66-4069-af4e-a9180e6e0d5f
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
+    servername: tb.servspremium.com
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vmess
       headers:
-        Host: id1vless.ipservers.xyz
+        Host: tb.servspremium.com
     udp: true
   - name: AKUN3
     server: ava.game.naver.com
@@ -85,7 +85,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - AKUN2
+      - selamatiduladha
       - AKUN3
 
   - name: MIX-X
@@ -94,7 +94,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - AKUN2
+      - selamatiduladha
       - AKUN3
       
   - name: IKLAN
