@@ -84,7 +84,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
+      - rush55
       - AKUN2
       - AKUN3
 
