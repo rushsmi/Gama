@@ -49,7 +49,7 @@ proxies:
     udp: true
     
   - name: rushhh
-    server: id-biznet.rmatstore.cloud
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
