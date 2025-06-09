@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: rush55
-    server: ive-upload.instagram.com
+    server: ava.game.naver.com
     port: 443
     type: vless
     uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
@@ -49,7 +49,7 @@ proxies:
     udp: true
     
   - name: rushhh
-    server: ive-upload.instagram.com
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
