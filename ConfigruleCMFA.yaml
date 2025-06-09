@@ -48,37 +48,23 @@ proxies:
         Host: sg-do5.esge.web.id
     udp: true
   - name: user
-    server: vps.ukmpersuim.com
+- name: rushhh
+    server: id-biznet.rmatstore.cloud
     port: 443
     type: vmess
-    uuid: 1afe9c16-af3f-4a61-93a2-1f5583d76f75
+    uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
+    servername: id-biznet.rmatstore.cloud
     network: ws
     ws-opts:
-      path: /vmess/
+      path: /vmess
       headers:
-        Host: ""
+        Host: id-biznet.rmatstore.cloud
     udp: true
-  - name: AKUN3
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: id2vless.ipservers.xyz
-    udp: true
-
+    
 proxy-groups:
   - name: ID-X
     type: fallback
@@ -86,8 +72,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - user
-      - AKUN3
+      - rushhh
 
   - name: MIX-X
     type: fallback
@@ -95,8 +80,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - user
-      - AKUN3
+      - rushhh
       
   - name: IKLAN
     type: select
