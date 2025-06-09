@@ -47,7 +47,8 @@ proxies:
       headers:
         Host: sg-do5.esge.web.id
     udp: true
-    - name: rushhh
+    
+  - name: rushhh
     server: id-biznet.rmatstore.cloud
     port: 443
     type: vmess
