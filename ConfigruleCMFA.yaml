@@ -72,6 +72,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - rushhh
+      - rush55
 
   - name: MIX-X
     type: fallback
@@ -79,6 +80,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
+      - rushhh
       
   - name: IKLAN
     type: select
