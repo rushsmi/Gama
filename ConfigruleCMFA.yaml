@@ -18,16 +18,15 @@ dns:
   ipv6: false
   enhanced-mode: redir-host
   listen: 0.0.0.0:7874
-  fake-ip-filter:
-  - "+.*"
   nameserver:
     - 8.8.8.8
-    - 1.1.1.1
+    - 1.0.0.1
   fallback:
-    - https://dns.google/dns-query #UMUM
+    - https://dns.google/dns-query
   default-nameserver:
     - 8.8.8.8
     - 1.1.1.1
+    - 112.215.203.254
   proxy-server-nameserver:
     - 104.22.4.240 #IP VIDIO
     - 104.22.5.240 #IP VIDIO
