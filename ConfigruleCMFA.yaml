@@ -32,7 +32,6 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-proxies:
   - name: rusdiii
     server: ava.game.naver.com
     port: 443
@@ -71,16 +70,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rusdiii
       - rush55
+      - rusdiii
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rush55
       - rusdiii
+      - rush55
       
   - name: IKLAN
     type: select
