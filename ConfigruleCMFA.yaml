@@ -32,38 +32,38 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-- name: rushhh
-  server: ava.game.naver.com
-  port: 443
-  type: vmess
-  uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.id-biznet.rmatstore.cloud
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ava.game.naver.com.id-biznet.rmatstore.cloud
-  udp: true
-- name: rush55
-  server: ava.game.naver.com
-  port: 443
-  type: vless
-  uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.sg-do5.esge.web.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: ava.game.naver.com.sg-do5.esge.web.id
-  udp: true
+  - name: rushhh
+    server: ava.game.naver.com
+    port: 443
+    type: vmess
+    uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.id-biznet.rmatstore.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ava.game.naver.com.id-biznet.rmatstore.cloud
+    udp: true
+  - name: rush55
+    server: ava.game.naver.com
+    port: 80
+    type: vless
+    uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.sg-do5.esge.web.id
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: ava.game.naver.com.sg-do5.esge.web.id
+    udp: true
 
 proxy-groups:
   - name: ID-X
