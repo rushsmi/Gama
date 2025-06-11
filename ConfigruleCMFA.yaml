@@ -56,12 +56,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.02-sni.biz.id
+    servername: ava.game.naver.com.db02.wcid.biz.id
     network: ws
     ws-opts:
       path: /vless-ws
       headers:
-        Host: ava.game.naver.com.02-sni.biz.id
+        Host: ava.game.naver.com.db02.wcid.biz.id
     udp: true
 
 proxy-groups:
