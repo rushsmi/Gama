@@ -34,23 +34,23 @@ dns:
     - 112.215.198.254 #DNS XL
 proxies:
   - name: rush55
-    server: ava.game.naver.com
+    server: sg-do5.esge.web.id
     port: 443
     type: vless
     uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.sg-do5.esge.web.id
+    servername: ava.game.naver.com
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: ava.game.naver.com.sg-do5.esge.web.id
+        Host: sg-do5.esge.web.id
     udp: true
     
   - name: rushhh
-    server: ava.game.naver.com
+    server: id-biznet.rmatstore.cloud
     port: 443
     type: vmess
     uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
@@ -58,12 +58,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.id-biznet.rmatstore.cloud
+    servername: ava.game.naver.com
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: ava.game.naver.com.id-biznet.rmatstore.cloud
+        Host: id-biznet.rmatstore.cloud
     udp: true
     
 proxy-groups:
