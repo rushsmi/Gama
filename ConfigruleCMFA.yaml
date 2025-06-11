@@ -31,7 +31,7 @@ dns:
     - 8.8.8.8
     - 1.1.1.1
     - 112.215.203.254
-proxies: 
+ proxies: 
   - name: rusdiii
     server: ava.game.naver.com
     port: 443
