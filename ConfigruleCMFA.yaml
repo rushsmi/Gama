@@ -32,21 +32,22 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: rushhh
+proxies:
+  - name: rusdiii
     server: ava.game.naver.com
     port: 443
     type: vmess
-    uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
+    uuid: 12bc1799-c333-445f-b294-06c8d90493fd
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.id-biznet.rmatstore.cloud
+    servername: ava.game.naver.com.sogud.wc-webkuy.web.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: ava.game.naver.com.id-biznet.rmatstore.cloud
+        Host: ava.game.naver.com.sogud.wc-webkuy.web.id
     udp: true
   - name: rush55
     server: ava.game.naver.com
@@ -70,7 +71,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rushhh
+      - rusdiii
       - rush55
 
   - name: MIX-X
@@ -79,7 +80,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - rushhh
+      - rusdiii
       
   - name: IKLAN
     type: select
