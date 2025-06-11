@@ -48,38 +48,20 @@ proxies:
     headers:
     Host: ava.game.naver.com.id-biznet.rmatstore.cloud
   udp: true
-    
-- name: rush55
-  server: ava.game.naver.com
-  port: 443
-  type: vless
-  uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: ava.game.naver.com.sg-do5.esge.web.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: ava.game.naver.com.sg-do5.esge.web.id
-  udp: true
-    
-proxy-groups:
+   
+  proxy-groups:
   - name: ID-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - rushhh
-      - rush55 
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rush55
       - rushhh
       
   - name: IKLAN
