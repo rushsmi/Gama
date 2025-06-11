@@ -54,7 +54,7 @@ proxies:
     type: vless
     uuid: 46beb778-cdcb-4f56-a46f-e34b48b1c1ea
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: ava.game.naver.com.02-sni.biz.id
     network: ws
