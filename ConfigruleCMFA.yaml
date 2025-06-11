@@ -48,20 +48,20 @@ proxies:
       headers:
         Host: ava.game.naver.com.id-biznet.rmatstore.cloud
     udp: true
-  - name: rush55
+  - name: ID TELKOM
     server: ava.game.naver.com
     port: 443
     type: vless
-    uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
+    uuid: e519bea6-d29d-4bf4-8978-f61d1d6a9705
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.sg-do5.esge.web.id
+    servername: ava.game.naver.com.cfles.festvpn.biz.id
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: ava.game.naver.com.sg-do5.esge.web.id
+        Host: ava.game.naver.com.cfles.festvpn.biz.id
     udp: true
 
 proxy-groups:
@@ -71,14 +71,14 @@ proxy-groups:
     interval: 300
     proxies:
       - rushhh
-      - rush55
+      - ID TELKOM
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rush55
+      - ID TELKOM
       - rushhh
       
   - name: IKLAN
