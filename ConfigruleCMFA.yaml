@@ -50,10 +50,9 @@ proxies:
     udp: true
   - name: rush55
     server: ava.game.naver.com
-    port: 80
+    port: 443
     type: vless
     uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
-    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
