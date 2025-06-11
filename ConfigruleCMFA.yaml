@@ -72,14 +72,14 @@ proxy-groups:
     interval: 300
     proxies:
       - rushhh
-      - Rush55
+      - rush55
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Rush55
+      - rush55
       - rushhh
       
   - name: IKLAN
