@@ -26,11 +26,11 @@ dns:
     - 1.1.1.1
     - 8.8.4.4
     - https://cloudflare-dns.com/dns-query
-    - 112.215.198.254
+    - 112.215.203.254
   default-nameserver:
     - 8.8.8.8
     - 1.1.1.1
-    - 112.215.198.254
+    - 112.215.203.254
 proxies: 
 - name: rushhh
   server: ava.game.naver.com
