@@ -41,12 +41,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.sg-do5.esge.web.id
+    servername: sg-do5.esge.web.id
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: ava.game.naver.com.sg-do5.esge.web.id
+        Host: sg-do5.esge.web.id
     udp: true
     
   - name: rushhh
@@ -58,12 +58,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.id-biznet.rmatstore.cloud
+    servername: id-biznet.rmatstore.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: ava.game.naver.com.id-biznet.rmatstore.cloud
+        Host: id-biznet.rmatstore.cloud
     udp: true
     
 proxy-groups:
