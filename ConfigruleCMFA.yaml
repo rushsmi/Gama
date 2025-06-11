@@ -34,7 +34,7 @@ dns:
 proxies: 
 - name: rushhh
   server: ava.game.naver.com
-  port: 80
+  port: 443
   type: vmess
   uuid: a1b493c5-ccba-4751-9206-fb0fb03122bd
   alterId: 0
@@ -79,8 +79,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rushhh
       - rush55
+      - rushhh
       
   - name: IKLAN
     type: select
