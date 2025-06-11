@@ -21,17 +21,16 @@ dns:
   nameserver:
     - 8.8.8.8
     - 1.0.0.1
-  fallback:
     - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.198.254
   default-nameserver:
     - 8.8.8.8
     - 1.1.1.1
-    - 112.215.203.254
-  proxy-server-nameserver:
-    - 104.22.4.240 #IP VIDIO
-    - 104.22.5.240 #IP VIDIO
-    - 112.215.198.248 #DNS XL
-    - 112.215.198.254 #DNS XL
+    - 112.215.198.254
 proxies:
   - name: rush55
     server: ava.game.naver.com
