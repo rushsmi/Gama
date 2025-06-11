@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.198.254
 proxies:
-- name: rushhh
+  - name: rushhh
     server: ava.game.naver.com
     port: 80
     type: vmess
@@ -48,7 +48,8 @@ proxies:
       headers:
         Host: ava.game.naver.com.id-biznet.rmatstore.cloud
     udp: true
-    - name: rush55
+    
+  - name: rush55
     server: ava.game.naver.com
     port: 443
     type: vless
