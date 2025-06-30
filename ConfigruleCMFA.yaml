@@ -98,7 +98,7 @@ proxy-groups:
     proxies:
       - rusdiii
       - Sabdoplow
-      - Rush55
+      - rush55
   - name: IKLAN
     type: select
     proxies:
