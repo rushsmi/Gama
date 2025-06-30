@@ -63,6 +63,22 @@ proxies:
       headers:
         Host: ava.game.naver.com.db02.wcid.biz.id
     udp: true
+  - name: Sabdoplow
+    server: sabdo.mediatunnel.web.id
+    port: 443
+    type: vmess
+    uuid: 389ac5e3-bd5f-4f15-bee5-b7f8305243e1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sabdo.mediatunnel.web.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sabdo.mediatunnel.web.id
+    udp: true
 
 proxy-groups:
   - name: ID-X
@@ -72,6 +88,7 @@ proxy-groups:
     proxies:
       - rush55
       - rusdiii
+      - Sabdoplow
 
   - name: MIX-X
     type: fallback
@@ -80,7 +97,7 @@ proxy-groups:
     proxies:
       - rusdiii
       - rush55
-      
+      - Sabdoplow
   - name: IKLAN
     type: select
     proxies:
