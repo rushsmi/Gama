@@ -64,7 +64,7 @@ proxies:
         Host: ava.game.naver.com.db02.wcid.biz.id
     udp: true
   - name: Sabdoplow
-    server: sabdo.mediatunnel.web.id
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: 389ac5e3-bd5f-4f15-bee5-b7f8305243e1
