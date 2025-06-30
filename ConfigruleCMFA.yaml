@@ -87,8 +87,9 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - rusdiii
       - Sabdoplow
+      - rusdiii
+     
 
   - name: MIX-X
     type: fallback
@@ -96,8 +97,8 @@ proxy-groups:
     interval: 300
     proxies:
       - rusdiii
-      - rush55
       - Sabdoplow
+      - Rush55
   - name: IKLAN
     type: select
     proxies:
