@@ -72,12 +72,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sabdo.mediatunnel.web.id
+    servername: ava.game.naver.com.sabdo.mediatunnel.web.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sabdo.mediatunnel.web.id
+        Host: ava.game.naver.com.sabdo.mediatunnel.web.id
     udp: true
 
 proxy-groups:
