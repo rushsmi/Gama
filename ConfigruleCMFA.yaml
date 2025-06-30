@@ -95,9 +95,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - rusdiii
       - rush55
       - Sabdoplow
-      - rusdiii
       
   - name: IKLAN
     type: select
