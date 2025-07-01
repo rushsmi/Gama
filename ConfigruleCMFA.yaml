@@ -74,7 +74,7 @@ proxies:
     servername: ava.game.naver.com.sg-do5.esge.web.id
     network: ws
     ws-opts:
-      path: /vless
+      path: /vless-ws
       headers:
         Host: ava.game.naver.com.sg-do5.esge.web.id
     udp: true
