@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.db02.wcid.biz.id
     udp: true
-  - name: rush55
+  - name: rush555
     server: ava.game.naver.com
     port: 443
     type: vless
@@ -85,7 +85,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - rush55
+      - rush555
       - rusdiii
      
   - name: MIX-X
@@ -95,7 +95,7 @@ proxy-groups:
     proxies:
       - rusdiii
       - rush55
-      - rush55
+      - rush555
       
   - name: IKLAN
     type: select
