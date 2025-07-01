@@ -63,23 +63,22 @@ proxies:
       headers:
         Host: ava.game.naver.com.db02.wcid.biz.id
     udp: true
-  - name: Sabdoplow
+  - name: sshocean-shanum12
     server: ava.game.naver.com
     port: 443
     type: vmess
-    uuid: 389ac5e3-bd5f-4f15-bee5-b7f8305243e1
+    uuid: 0d64e767-5e03-5db5-a46c-295683bee646
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.ns-bken-prem.store-vpn.my.id
+    servername: ava.game.naver.com.id1.xvmess.site
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: ava.game.naver.com.ns-bken-prem.store-vpn.my.id
+        Host: ava.game.naver.com.id1.xvmess.site
     udp: true
-
 proxy-groups:
   - name: ID-X
     type: fallback
@@ -87,7 +86,7 @@ proxy-groups:
     interval: 300
     proxies:
       - rush55
-      - Sabdoplow
+      - sshocean-shanum12
       - rusdiii
      
   - name: MIX-X
@@ -97,7 +96,7 @@ proxy-groups:
     proxies:
       - rusdiii
       - rush55
-      - Sabdoplow
+      - sshocean-shanum12
       
   - name: IKLAN
     type: select
