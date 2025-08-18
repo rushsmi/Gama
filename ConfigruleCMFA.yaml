@@ -44,7 +44,7 @@ proxies:
     servername: quiz.int.vidio.com.d03.biz.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /vmess-ws
       headers:
         Host: quiz.int.vidio.com.d03.biz.id
     udp: true
@@ -59,7 +59,7 @@ proxies:
     servername: quiz.int.vidio.com.d03.biz.id
     network: ws
     ws-opts:
-      path: /vless-ws
+      path: /vmess-ws
       headers:
         Host: quiz.int.vidio.com.d03.biz.id
     udp: true
@@ -150,4 +150,5 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
