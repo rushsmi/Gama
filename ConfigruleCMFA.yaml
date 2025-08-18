@@ -39,7 +39,7 @@ proxies:
     uuid: 26f30c01-39ce-4a29-840f-267fc6205c8a
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: quiz.int.vidio.com.d03.biz.id
     network: ws
@@ -151,6 +151,7 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
 
