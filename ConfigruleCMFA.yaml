@@ -32,70 +32,54 @@ dns:
     - 1.1.1.1
     - 112.215.203.254  
 proxies: 
-  - name: rusdiii
-    server: ava.game.naver.com
+  - name: (gosenn)
+    server: quiz.int.vidio.com
     port: 443
     type: vmess
-    uuid: 12bc1799-c333-445f-b294-06c8d90493fd
+    uuid: 26f30c01-39ce-4a29-840f-267fc6205c8a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.sogud.wc-webkuy.web.id
+    servername: quiz.int.vidio.com.d03.biz.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: ava.game.naver.com.sogud.wc-webkuy.web.id
+        Host: quiz.int.vidio.com.d03.biz.id
     udp: true
-  - name: rush55
-    server: ava.game.naver.com
+  - name: (rusdhi)
+    server: quiz.int.vidio.com
     port: 443
-    type: vless
-    uuid: 46beb778-cdcb-4f56-a46f-e34b48b1c1ea
+    type: vmess
+    uuid: ea448132-c05f-4699-a7be-64cca55962d1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.db02.wcid.biz.id
+    servername: quiz.int.vidio.com.d03.biz.id
     network: ws
     ws-opts:
       path: /vless-ws
       headers:
-        Host: ava.game.naver.com.db02.wcid.biz.id
+        Host: quiz.int.vidio.com.d03.biz.id
     udp: true
-  - name: rush555
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: 9df07563-9088-44ec-b3f7-a5b55f6773a1
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.sg-do5.esge.web.id
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: ava.game.naver.com.sg-do5.esge.web.id
-    udp: true
+    
 proxy-groups:
   - name: ID-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rush55
-      - rush555
-      - rusdiii
-     
+      - (gosenn)
+      - (rusdhi)
+
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - rusdiii
-      - rush55
-      - rush555
+     - (gosenn)
+     - (rusdhi)
       
   - name: IKLAN
     type: select
@@ -166,3 +150,4 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
