@@ -53,6 +53,7 @@ proxies:
     port: 443
     type: vmess
     uuid: ea448132-c05f-4699-a7be-64cca55962d1
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
@@ -150,5 +151,6 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
