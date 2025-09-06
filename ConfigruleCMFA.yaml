@@ -57,12 +57,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: quiz.int.vidio.com.d03.biz.id
+    servername: quiz.int.vidio.com.01.wcp.web.id
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: quiz.int.vidio.com.d03.biz.id
+        Host: quiz.int.vidio.com.01.wcp.web.id
     udp: true
     
 proxy-groups:
@@ -151,6 +151,7 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
 
