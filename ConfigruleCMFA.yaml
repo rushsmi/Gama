@@ -64,6 +64,22 @@ proxies:
       headers:
         Host: quiz.int.vidio.com.01.wcp.web.id
     udp: true
+  - name: (ganteng)
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: c946d1b0-2fad-41d1-a0ac-4ab54b8ea0e7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: quiz.int.vidio.com.01.wcg.web.id
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: quiz.int.vidio.com.01.wcg.web.id
+    udp: true
     
 proxy-groups:
   - name: ID-X
@@ -73,6 +89,7 @@ proxy-groups:
     proxies:
       - (gosenn)
       - (rusdhi)
+      - (ganteng) 
 
   - name: MIX-X
     type: fallback
@@ -81,6 +98,7 @@ proxy-groups:
     proxies:
      - (gosenn)
      - (rusdhi)
+     - (ganteng) 
       
   - name: IKLAN
     type: select
@@ -151,6 +169,7 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
 
