@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254  
 proxies: 
   - name: (rusdhi)
-    server: ava.gamer.naver.com
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: ea448132-c05f-4699-a7be-64cca55962d1
@@ -41,15 +41,15 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.gamer.naver.com.01.wcp.web.id
+    servername: ava.game.naver.com.01.wcp.web.id
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: ava.gamer.naver.com.01.wcp.web.id
+        Host: ava.game.naver.com.01.wcp.web.id
     udp: true
   - name: (ganteng)
-    server: ava.gamer.naver.com
+    server: ava.game.naver.com
     port: 443
     type: vmess
     uuid: c946d1b0-2fad-41d1-a0ac-4ab54b8ea0e7
@@ -57,12 +57,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.gamer.naver.com.01.wcg.web.id
+    servername: ava.game.naver.com.01.wcg.web.id
     network: ws
     ws-opts:
       path: /vmess-ws
       headers:
-        Host: ava.gamer.naver.com.01.wcg.web.id
+        Host: ava.game.naver.com.01.wcg.web.id
     udp: true
     
 proxy-groups:
@@ -151,6 +151,7 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
 
